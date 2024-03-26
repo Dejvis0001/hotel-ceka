@@ -7,7 +7,7 @@
     <title>Home - Hotel Ceka | A hotel in the heart of everything</title>
     <meta name="description"
         content="Hotel Ceka located in Sarande offers, Parking, Personal parking Area, Non-smoking rooms, Air-Conditioning ." />
-    <meta name="keywords" content="Hotel Ceka , Sarande , Albania , Hotel , Bar , Parking ,  Travel, Vacation">
+    <meta name="keywords" content="Hotel Ceka , Sarande , Albania , Hotel , Bar , Free Parking ,  Travel, Vacation">
     <!--Shto dhe ca-->
     <link rel="icon" type="image/x-icon" href="assets/icon/fav-icon-50x50-px-1.png">
     <!-- FontAwesome -->
@@ -15,6 +15,8 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="stylesheet.css">
 </head>
@@ -66,97 +68,68 @@
         </nav>
     </header>
     <main>
-        <section class="main-bg d-flex flex-column justify-content-center align-items-center text-center text-light"
-            id="section1">
-            <img src="assets/icon/stars.png" width="200px" style="top: 10px;"><br>
-            <h1 class="mb-2">
-                Welcome to
-            </h1>
-            <h1 class="display-2 mb-3" style="color: #f4ac45;">
-                Hotel Ceka
-            </h1>
-            <a class="link-btn " href="https://allbookers.com/hotel/AL/Hotel-Ceka.de.html?id=4103"
-                style="background-color: rgba(0, 0, 0, 0.8);">Book Now</a>
-        </section>
-        <section id="section2 ">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <img src="assets/images/Photo (18).jpg" class="img-fluid section-2-image"
-                            alt="Responsive image">
-                    </div>
-                    <div class="col" id="myDiv">
-                        <h1 class="section-2-h">Welcome <br> to <br>FORI'S ROOMS
-                            </h2>
-                            <p class="section-2-p">Boasting a terrace, bar and views of city, Fori’s rooms is
-                                set in
-                                Himare,
-                                100 m from
-                                Spille Beach. <br><br>This pet-friendly hotel also has free WiFi.<br>
-                                Maracit Beach is 400 m from Fori’s rooms, while Prinos Beach is 800 m from the
-                                property.<br>
-                                The nearest airport is Ioannina Airport, 143 km from the accommodation</p>
-                            <a class="link-btn-s3" href="https://www.booking.com/hotel/al/konomi.html">Book
-                                Now</a>
-                    </div>
-                    <div class="col">
-                        <img src="assets/images/Photo (44).jpg" class="img-fluid section-2-image"
-                            alt="Responsive image">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h4 class="uppercase mb-30" style="text-align: center;">Hotel Ceka</h4>
-                        <br>
-                        <h1 class="capitalize text-65 mb-30">Book your room & enjoy the comfort</h1>
-                        <br>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos ipsam distinctio
-                            quisquam aliquid! Corrupti amet cumque eum sed, quos laudantium ea voluptas quo beatae fuga.
-                            Molestiae cumque minima rem dolor.</p>
-                        <button>button</button>
-                    </div>
-                    <div class="col img-fluid"
-                        style="max-width: 100%; height: auto;box-sizing: border-box;  border-radius: 10px;">
-                        <img src="assets/image/304988496.jpg" alt="Image" style="width: 100%; height: auto;">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <div class="col">
-                    <div class="row">
-                        <h6>EXPLORE</h6>
-                    </div><br>
-                    <div class="row">
-                        <div class="col-6">
-                            <h1>Rooms & Suites</h1>
-                        </div>
-                        <div class="col-6"><button>button</button></div>
-                    </div>
-                    <div class="row"></div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" style="width: 100vw;">
+        <section style="padding-top: 0 !important;">
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" style="width: 100%;">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="100000">
-                        <img src="assets/image/267605.jpg" class="d-block w-100" alt="image1">
-                        <div class="carousel-caption">Room1</div>
+                        <img src="assets/image/1.jpg" class="d-block background-tint w-100" alt="image1">
+                        <div class="carousel-caption"> <img src="assets/icon/stars.png" style="height: 40px;"><br>
+                            <h1 class="mb-2">Welcome to</h1>
+                            <h1 style="color: #f4ac45;">Hotel Ceka</h1>
+                            <button class="button0"><a
+                                    href="https://allbookers.com/hotel/AL/Hotel-Ceka.de.html?id=4103">
+                                    Book Now</a></button>
+                        </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="100000">
-                        <img src="assets/image/304988488.jpg" class="d-block w-100" alt="image2">
-                        <div class="carousel-caption">Room2</div>
+                        <img src="assets/image/2.jpg" class="d-block w-100" alt="image2">
+                        <div class="carousel-caption"> <img src="assets/icon/stars.png" style="height: 40px;"><br>
+                            <h1 class="mb-2">Welcome to</h1>
+                            <h1 style="color: #f4ac45;">Hotel Ceka</h1>
+                            <button class="button0"><a
+                                    href="https://allbookers.com/hotel/AL/Hotel-Ceka.de.html?id=4103">
+                                    Book Now</a></button>
+                        </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="100000">
-                        <img src="assets/image/304988496.jpg" class="d-block w-100" alt="image3">
-                        <div class="carousel-caption">Room3</div>
+                        <img src="assets/image/3.jpg" class="d-block w-100" alt="image2">
+                        <div class="carousel-caption"> <img src="assets/icon/stars.png" style="height: 40px;"><br>
+                            <h1 class="mb-2">Welcome to</h1>
+                            <h1 style="color: #f4ac45;">Hotel Ceka</h1>
+                            <button class="button0"><a
+                                    href="https://allbookers.com/hotel/AL/Hotel-Ceka.de.html?id=4103">
+                                    Book Now</a></button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="100000">
+                        <img src="assets/image/10.jpg" class="d-block w-100" alt="image2">
+                        <div class="carousel-caption"> <img src="assets/icon/stars.png" style="height: 40px;"><br>
+                            <h1 class="mb-2">Welcome to</h1>
+                            <h1 style="color: #f4ac45;">Hotel Ceka</h1>
+                            <button class="button0"><a
+                                    href="https://allbookers.com/hotel/AL/Hotel-Ceka.de.html?id=4103">
+                                    Book Now</a></button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="100000">
+                        <img src="assets/image/4.jpg" class="d-block w-100" alt="image2">
+                        <div class="carousel-caption"> <img src="assets/icon/stars.png" style="height: 40px;"><br>
+                            <h1 class="mb-2">Welcome to</h1>
+                            <h1 style="color: #f4ac45;">Hotel Ceka</h1>
+                            <button class="button0"><a
+                                    href="https://allbookers.com/hotel/AL/Hotel-Ceka.de.html?id=4103">
+                                    Book Now</a></button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="100000">
+                        <img src="assets/image/11.png" class="d-block w-100" alt="image2">
+                        <div class="carousel-caption"> <img src="assets/icon/stars.png" style="height: 40px;"><br>
+                            <h1 class="mb-2">Welcome to</h1>
+                            <h1 style="color: #f4ac45;">Hotel Ceka</h1>
+                            <button class="button0"><a
+                                    href="https://allbookers.com/hotel/AL/Hotel-Ceka.de.html?id=4103">
+                                    Book Now</a></button>
+                        </div>
                     </div>
                 </div>
                 <!-- Previous and Next buttons -->
@@ -172,22 +145,118 @@
                 </button>
             </div>
         </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <h1 class="capitalize text-55 mb-30 text-center">Where Every <br> Moment Matters
+                            </h1>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <p>Hotel Ceka offers accommodation with free WiFi and free private parking. The property is
+                                located 600 m from La Petite Beach, 800 m from Maestral Beach and 17 km from Butrint
+                                National Park. The hotel has family rooms.</p>
+                        </div>
+                        <br>
+                        <div class="row" style="justify-content: center;">
+                            <button class="learn-more">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text"> <a href="#">About Us</a></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image-container"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            style="background: url(assets/icon/43064.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+            <div class="container">
+                <div class="col">
+                    <div class="row">
+                        <h6 class="sec3h6">EXPLORE</h6>
+                    </div><br>
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="sec3h1">Rooms & Suites</h1>
+                        </div>
+                        <div class="col">
+                            <button class="button0" style="float: right;"><a
+                                    href="https://allbookers.com/hotel/AL/Hotel-Ceka.de.html?id=4103">Book
+                                    Now</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="amenities">
             <div class="container">
-                <div class="col" style="text-align: center;">
-                    <div class="row" style="margin-bottom: 50px;">
-                        <h1>Amenties</span> &amp; <span style="color: #db8e09;">Facilities</span></h1>
-                    </div>
-                    <div class="row">
-                        <div class="col colimg0"> <img src="assets/image/267605.jpg"
-                                style="width: 100%;padding-left: 100px;height: auto;" alt=""></div>
-                        <div class="col">
-                            <div class="container text-center">
-                                <div class="row row-cols-2">
-                                    <div class="col">Column</div>
-                                    <div class="col">Column</div>
-                                    <div class="col">Column</div>
-                                    <div class="col">Column</div>
+                <div class="row">
+                    <div class="col" style="text-align: center;">
+                        <div class="row" style="margin-bottom: 50px;">
+                            <h1>Our Facilities:</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1 col-sm-12"></div>
+                            <div class="col-md-2 col-sm-12 text-align-center mx-2 mn25">
+                                <div class="amenity">
+                                    <img src="assets/icon/free-wifi.png" width="100px" height="100px" alt="" srcset="">
+                                    <div class="amenity-text">FREE WIFI</div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-12 text-align-center mx-2 mn25">
+                                <div class="amenity">
+                                    <img src="assets/icon/english-breakfast.png" width="100px" height="100px" alt=""
+                                        srcset="">
+                                    <div class="amenity-text">BREAKFAST</div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-12 text-align-center mx-2 mn25">
+                                <div class="amenity">
+                                    <img src="assets/icon/free-parking.png" width="100px" height="100px" alt=""
+                                        srcset="">
+                                    <div class="amenity-text">FREE PARKING</div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-12 text-align-center mx-2 mn25">
+                                <div class="amenity">
+                                    <img src="assets/icon/balcony.png" width="100px" height="100px" alt="" srcset="">
+                                    <div class="amenity-text">BALCONY</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1 col-sm-12"></div>
+                            <div class="col-md-2 col-sm-12 text-align-center mx-2 mn25">
+                                <div class="amenity">
+                                    <img src="assets/icon/air-conditioner.png" width="100px" height="100px" alt=""
+                                        srcset="">
+                                    <div class="amenity-text">AIR CONDITIONING</div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-12 text-align-center mx-2 mn25">
+                                <div class="amenity">
+                                    <img src="assets/icon/cloche.png" width="100px" height="100px" alt="" srcset="">
+                                    <div class="amenity-text">ROOM SERVICES</div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-12 text-align-center mx-2 mn25">
+                                <div class="amenity">
+                                    <img src="assets/icon/dinner.png" width="100px" height="100px" alt="" srcset="">
+                                    <div class="amenity-text">FAMILY ROOM</div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-12 text-align-center mx-2 mn25">
+                                <div class="amenity">
+                                    <img src="assets/icon/non-smoking-room.png" width="100px" height="100px" alt=""
+                                        srcset="">
+                                    <div class="amenity-text">No SMOKING ROOM</div>
                                 </div>
                             </div>
                         </div>
@@ -195,18 +264,13 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <h1>
-                        Contact Form
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ratione, recusandae
-                        reiciendis expedita ipsa vel laudantium odio nam veritatis, ut impedit. Quo dolorem ex
-                        officiis iure sed ipsum in doloribus. </p>
-                </div>
-            </div>
+        <section
+            class="main-bg d-flex flex-column justify-content-center align-items-center text-center background-tint"
+            id="section1">
+            <h1 style="color: #f4ac45;margin-bottom: 30px;">
+                "Unparalleled hospitality, your comfort our priority." </h1><br><br>
+            <button class="button0"><a href="https://allbookers.com/hotel/AL/Hotel-Ceka.de.html?id=4103">Book
+                    Now</a></button>
         </section>
         <section>
             <div class="container">
@@ -220,18 +284,75 @@
                         officiis iure sed ipsum in doloribus. </p>
                 </div>
             </div>
+        </section>
+        <section class="testimonial-section">
+            <div class="testimonial mySwiper">
+                <div class="testi-content swiper-wrapper">
+                    <div class="slide swiper-slide">
+                        <img src="assets/icon/italy.png" alt="" class="image" />
+                        <p>
+                            Basic room, however clean. My room was facing the sea. My husband and I had a great time,
+                            the hairdryer was missing in the room..
+                        </p>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                        <div class="details">
+                            <span class="name">Bramante</span>
+                            <span class="job">Italy</span>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="assets/icon/france.png" alt="" class="image" />
+                        <p>
+                            The location of the hotel 50 meters from the beach and 7min walk from the city center and
+                            the bus terminals to Tirana, Ksamil Blue eye
+                        </p>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                        <div class="details">
+                            <span class="name">Julie</span>
+                            <span class="job">France</span>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="assets/icon/germany.png" alt="" class="image" />
+                        <p>
+                            Big spacious room in the center of Saranda. Free Parking is a huge plus. The host was also
+                            very polite and helpful.
+                        </p>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                        <div class="details">
+                            <span class="name">Frenk</span>
+                            <span class="job">Germany</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next nav-btn"></div>
+                <div class="swiper-button-prev nav-btn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
         </section>
         <section class="footer_wrapper  mt-md-0 pb-0 ">
             <div class="container pb-3">
                 <div class="row">
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
-                            <h5 style="color: #ffffff;"><img src="assets/icon/hotel-ceka-white.png" width="50px">
+                            <h5 style="color: #ffffff;justify-content: center;
+                            display: flex;"><img src="assets/icon/hotel-ceka-white.png" width="50px">
                             </h5>
                             <p style="color: #ffffff;">Hotel Ceka offers accommodation with free WiFi and free private
                                 parking.&nbsp;Welcome to our hotel.
                             </p>
-                            </p>
+                            <div class="social-icons" style="background-size: cover;">
+                                <a href="https://www.facebook.com/p/Hotel-and-Suites-%C3%87eka-100070866503203/?_rdr"
+                                    target="_blank" style="margin: 5px;"><img src="assets/icon/fb.png" width="20px"></a>
+                                <a href="https://www.instagram.com/ceka.rooms/" target="_blank"><img
+                                        src="assets/icon/insta.png" width="20px" style="margin: 5px;"></a>
+                                <a href="https://allbookers.com/hotel/AL/Hotel-Ceka.de.html?id=4103"
+                                    target="_blank"><img src="assets/icon/booking.png" width="20px"
+                                        style="margin: 5px;"></a>
+                                <a href="tel:+355695154346" target="_blank"><img src="assets/icon/icons8-call-24.png"
+                                        width="20px" style="margin: 5px;"></a>
+                            </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <h5 class="footer-link-d" style="color: #ff934f;">Contact:</h5>
@@ -273,7 +394,7 @@
                             style="font-size:medium;color:rgb(255, 255, 255);text-align: center;padding-bottom: 0 !important;">
                             Copyright ©
                             <script>document.write(new Date().getFullYear());</script> Foris's Rooms | Powered by <a
-                                href="https://intermedia.al/" target="_blank"><img src="assets/icon/intermediaLogo2.png"
+                                href="https://intermedia.al/" target="_blank"><img src="assets/icon/intermediaLogo1.png"
                                     width="120px"></a>
                         </p>
                     </div>
@@ -281,6 +402,7 @@
             </div>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
