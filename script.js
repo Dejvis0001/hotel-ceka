@@ -87,3 +87,60 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+$(document).ready(function () {
+  $(".filter-button").click(function () {
+    var value = $(this).attr("data-filter");
+    if (value == "all") {
+      $(".filter").show("1000");
+    } else {
+      $(".filter")
+        .not("." + value)
+        .hide("3000");
+      $(".filter")
+        .filter("." + value)
+        .show("3000");
+    }
+    // Add or remove 'active' class
+    $(".filter-button").removeClass("active");
+    $(this).addClass("active");
+  });
+
+  // Get the modal and images
+  var modal = document.getElementById("myModal");
+  var modalImg = document.getElementById("img01");
+  var img = document.getElementsByClassName("img-fluid");
+  // Current image index
+  var currentImgIndex = 0;
+  // Open the modal and display the clicked image
+  for (var i = 0; i < img.length; i++) {
+    img[i].addEventListener("click", function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      // Set the current image index
+      currentImgIndex = Array.from(img).indexOf(this);
+    });
+  }
+  // Close the modal
+  var span = document.getElementsByClassName("close")[0];
+  span.onclick = function () {
+    modal.style.display = "none";
+  };
+  // Navigate to the previous image
+  var prev = document.getElementsByClassName("prev")[0];
+  prev.onclick = function () {
+    currentImgIndex = (currentImgIndex - 1 + img.length) % img.length;
+    modalImg.src = img[currentImgIndex].src;
+  };
+  // Navigate to the next image
+  var next = document.getElementsByClassName("next")[0];
+  next.onclick = function () {
+    currentImgIndex = (currentImgIndex + 1) % img.length;
+    modalImg.src = img[currentImgIndex].src;
+  };
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
+});
