@@ -94,16 +94,33 @@ $(document).ready(function () {
       $(".filter").show("1000");
     } else {
       $(".filter")
-        .not("." + value)
-        .hide("3000");
-      $(".filter")
+        .hide("3000")
         .filter("." + value)
         .show("3000");
     }
     // Add or remove 'active' class
     $(".filter-button").removeClass("active");
     $(this).addClass("active");
+
+    // Dynamically adjust layout after filtering
+    adjustGalleryLayout();
   });
+
+  // Function to adjust gallery layout after filtering
+  function adjustGalleryLayout() {
+    $(".gallery").each(function () {
+      var $gallery = $(this);
+      var $visibleItems = $gallery.find(".filter:visible");
+      var itemsPerRow = 3; // Number of items per row
+      var emptySlots = itemsPerRow - ($visibleItems.length % itemsPerRow);
+      // Add empty slots to maintain grid layout
+      for (var i = 0; i < emptySlots; i++) {
+        $gallery.append(
+          "<div class='gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter empty'></div>"
+        );
+      }
+    });
+  }
 
   // Get the modal and images
   var modal = document.getElementById("myModal");
