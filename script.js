@@ -101,11 +101,9 @@ $(document).ready(function () {
     // Add or remove 'active' class
     $(".filter-button").removeClass("active");
     $(this).addClass("active");
-
     // Dynamically adjust layout after filtering
     adjustGalleryLayout();
   });
-
   // Function to adjust gallery layout after filtering
   function adjustGalleryLayout() {
     $(".gallery").each(function () {
@@ -121,7 +119,6 @@ $(document).ready(function () {
       }
     });
   }
-
   // Get the modal and images
   var modal = document.getElementById("myModal");
   var modalImg = document.getElementById("img01");

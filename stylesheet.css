@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-:root {                                                                        /* Root*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+:root {
     --primary-color: #021832;
     --secondary-color: #a3a190;
     --bg-color: #f4f4f4;
@@ -33,7 +33,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
 }
 a {
     color: inherit;
@@ -49,19 +49,17 @@ section {
 .col {
     flex: 1;
 }
-
 li {
     list-style: none;
     padding: 0px;
     margin: 0px;
 }
-
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     display: flex;
     flex-direction: column;
 }
-.navbar {                                                                        /* Navbar*/
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -87,7 +85,7 @@ body {
     margin-left: auto !important;
 }
 .nav {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     color: #fff;
     padding: 10px 20px;
 }
@@ -281,16 +279,16 @@ header .navbar .link-btn {
     right: -40px;
     top: -40px;
     transform: rotate(37deg);
-    transition: all .3s;
+    transition: all 0.3s;
     opacity: 0.3;
 }
 .link-btn:hover:before {
     right: 105%;
 }
 .container .navbar .link-btn {
-    padding: .4rem 1.3rem;
+    padding: 0.4rem 1.3rem;
 }
-.carousel-control-prev,                                                                   /* Carousel*/
+.carousel-control-prev,
 .carousel-control-next {
     width: 100px;
     height: 100px;
@@ -324,7 +322,7 @@ header .navbar .link-btn {
     font-size: 24px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.footer_wrapper {                                                                        /* Footer*/
+.footer_wrapper {
     background: rgb(3, 83, 126) !important;
     padding: 5% 0 0 0 !important;
 }
@@ -360,7 +358,7 @@ header .navbar .link-btn {
     transition: 0.5s;
 }
 #section1 {
-    background: url(assets/image/46.jpg) rgba(0, 0, 0, .3);
+    background: url(assets/image/46.jpg) rgba(0, 0, 0, 0.3);
     object-fit: cover;
     background-size: cover !important;
     background-position: center !important;
@@ -369,7 +367,7 @@ header .navbar .link-btn {
     height: 70vh;
 }
 #section1-1 {
-    background: url(assets/image/25.jpg) rgba(0, 0, 0, .3);
+    background: url(assets/image/25.jpg) rgba(0, 0, 0, 0.3);
     object-fit: cover;
     background-size: cover !important;
     background-position: center !important;
@@ -386,14 +384,13 @@ header .navbar .link-btn {
     border-radius: 20px;
 }
 .image-container {
-    background-image: url('assets/image/2.jpg');
+    background-image: url("assets/image/2.jpg");
     background-size: cover;
     background-position: center;
     height: 70vh;
     width: 100%;
     border-radius: 20px;
     box-shadow: 30px 30px 5px 0px rgba(21, 90, 111, 1);
-    ;
 }
 .button0 {
     padding: 1em 2em;
@@ -475,7 +472,7 @@ header .navbar .link-btn {
     padding-top: 20px;
 }
 .testimonial-section {
-    background-color: #E7ECEF;
+    background-color: #e7ecef;
     height: 600px;
     justify-content: center;
     align-content: center;
@@ -558,7 +555,7 @@ header .navbar .link-btn {
     color: #ff934f;
     font-weight: 800;
     line-height: 150%;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 20px;
     margin-left: 50px;
 }
@@ -568,7 +565,7 @@ header .navbar .link-btn {
     color: #ff934f;
     font-weight: 800;
     line-height: 150%;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 40px;
     margin-left: 50px;
 }
@@ -578,7 +575,7 @@ header .navbar .link-btn {
     color: #ff934f;
     font-weight: 800;
     line-height: 150%;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 20px;
     margin-left: 50px;
 }
@@ -588,7 +585,7 @@ header .navbar .link-btn {
     color: #ff934f;
     font-weight: 800;
     line-height: 150%;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 40px;
     margin-left: 50px;
 }
@@ -624,12 +621,9 @@ header .navbar .link-btn {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background: #FFFFFF;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-    transition: .5s;
-}
-.gallery {
-    background-color: #2e6cff;
+    background: #ffffff;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+    transition: 0.5s;
 }
 .rounded {
     border-radius: 30px !important;
@@ -639,7 +633,7 @@ header .navbar .link-btn {
     margin: 0 auto 30px auto;
     width: 65px;
     height: 65px;
-    transition: .5s;
+    transition: 0.5s;
 }
 .custom-slider-container {
     width: 100%;
@@ -765,8 +759,8 @@ header .navbar .link-btn {
     bottom: 0;
 }
 .rooms1 .item img {
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .rooms1 .item .category {
     position: absolute;
@@ -787,7 +781,7 @@ header .navbar .link-btn {
     letter-spacing: 3px;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.5);
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     padding: 10px 3px;
     line-height: 1.5em;
 }
@@ -803,22 +797,31 @@ header .navbar .link-btn {
     bottom: -60px;
     left: 0;
     width: 100%;
-    -webkit-transition: all .3s;
-    transition: all .3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
     text-align: left;
     z-index: 20;
     height: auto;
     box-sizing: border-box;
-    background: -moz-linear-gradient(top, transparent 0, rgba(0, 0, 0, .1) 2%, rgba(0, 0, 0, .75) 90%);
-    background: -webkit-linear-gradient(top, transparent 0, rgba(0, 0, 0, .01) 2%, rgba(0, 0, 0, .75) 90%);
-    background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, .01) 2%, rgba(0, 0, 0, .75) 90%);
+    background: -moz-linear-gradient(top,
+            transparent 0,
+            rgba(0, 0, 0, 0.1) 2%,
+            rgba(0, 0, 0, 0.75) 90%);
+    background: -webkit-linear-gradient(top,
+            transparent 0,
+            rgba(0, 0, 0, 0.01) 2%,
+            rgba(0, 0, 0, 0.75) 90%);
+    background: linear-gradient(to bottom,
+            transparent 0,
+            rgba(0, 0, 0, 0.01) 2%,
+            rgba(0, 0, 0, 0.75) 90%);
 }
 .rooms1 .item .con h6,
 .rooms1 .item .con h6 a {
     position: relative;
     color: #fff;
     font-size: 15px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     display: inline;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -890,34 +893,20 @@ header .navbar .link-btn {
     margin-right: 10px;
 }
 .rooms1 .item .con .permalink {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 15px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #fff;
     height: 0;
     overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
     display: inline;
 }
-.rooms1 .item .con .permalink a {
+.rooms1 .item .con .permalink a,
+.rooms1 .item .con .permalink i {
     color: #fff;
     text-align: right;
-}
-.rooms1 .item .con .permalink i {
     font-size: 10px;
-    text-align: right;
-}
-.rooms1 .item .con .permalink a:hover,
-.rooms1 .item .con .permalink i:hover {
-    color: #aa8453;
 }
 .bottom-section {
     padding: 50px;
@@ -925,61 +914,11 @@ header .navbar .link-btn {
     max-width: 1200px;
     margin: 0 auto;
 }
-.gallery-section .options {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-.gallery-section .options a {
-    margin: 0 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-.gallery-section .options a:hover {
-    background-color: #0056b3;
-}
 .options {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 25px;
-}
-.gallery-section .gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-.gallery-section .gallery-item {
-    overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.gallery-section .gallery-item img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
-.gallery-section .gallery-item:hover img {
-    transform: scale(1.05);
-}
-.gallery-title {
-    font-size: 36px;
-    color: #42b32f;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 70px;
-}
-.gallery-title:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #5e5e5e;
 }
 .filter-button {
     font-size: 20px;
@@ -1000,20 +939,6 @@ header .navbar .link-btn {
     color: #333 !important;
     background-color: rgb(250, 250, 230) !important;
     border-color: #adadad !important;
-}
-.btn-default:active .filter-button:active {
-    background-color: #42b32f;
-    color: white;
-}
-.port-image {
-    width: 100%;
-}
-.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
 }
 .gallery_product {
     margin-bottom: 30px;
@@ -1094,39 +1019,9 @@ header .navbar .link-btn {
 .section-padding {
     padding: 120px 0;
 }
-.star-rating {
-    position: relative;
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 0.9em;
-    margin-right: 0.9em;
-    margin-bottom: 2em;
-    border-right: 0.3em solid transparent;
-    border-bottom: 0.7em solid #e4a853;
-    border-left: 0.3em solid transparent;
-    font-size: 8px;
-}
-.star-rating:before,
-.star-rating:after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 0.6em;
-    left: -1em;
-    border-right: 1em solid transparent;
-    border-bottom: 0.7em solid #e4a853;
-    border-left: 1em solid transparent;
-    transform: rotate(-35deg);
-}
-.star-rating:after {
-    transform: rotate(35deg);
-}
 .section-title {
     font-size: 46px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-weight: 400;
     color: #222;
     position: relative;
@@ -1144,7 +1039,6 @@ header .navbar .link-btn {
     overflow: hidden;
 }
 .rooms2 figure img:hover {
-    -webkit-transform: scale(1.05, 1.05);
     transform: scale(1.05);
 }
 .rooms2 figure img {
@@ -1155,19 +1049,12 @@ header .navbar .link-btn {
     color: #3b3b3b;
 }
 .rooms2 .img:hover img {
-    -webkit-filter: none;
     filter: none;
-    -webkit-transform: scale(1.05, 1.05);
     transform: scale(1.05, 1.05);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
 .rooms2 .img img {
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    transition: all 0.5s;
     height: 100%;
     width: 100%;
 }
@@ -1188,12 +1075,12 @@ header .navbar .link-btn {
 .rooms2 .content .cont h6 {
     font-size: 15px;
     color: #aa8453;
-    font-family: 'Outfit', serif;
+    font-family: "Outfit", serif;
     font-weight: 400;
     text-transform: uppercase;
 }
 .rooms2 .content .cont h6 span {
-    font-family: 'Outfit', serif;
+    font-family: "Outfit", serif;
     font-size: 15px;
     margin-bottom: 0px;
     color: #1b1b1b;
