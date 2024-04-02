@@ -177,7 +177,7 @@ button.learn-more .circle {
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background: #0011ff;
+    background: #077493;
     border-radius: 1.625rem;
 }
 button.learn-more .circle .icon {
@@ -350,7 +350,7 @@ header .navbar .link-btn {
     margin-bottom: 50px !important;
 }
 .text-55 {
-    font-size: 55px;
+    font-size: 65px;
 }
 .slide-row {
     display: flex;
@@ -387,10 +387,10 @@ header .navbar .link-btn {
     background-image: url("assets/image/6.jpg");
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 30px 30px 5px 0px rgba(21, 90, 111, 1);
+    box-shadow: 5px 10px 5px 0px rgba(21, 90, 111, 1);
 }
 .button0 {
     padding: 1em 2em;
